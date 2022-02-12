@@ -1,0 +1,40 @@
+.containerSubelemente {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 0.3rem;
+  width: 100%;
+}
+
+.containerParticipant {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.Subelement {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 0.3rem;
+  width: 50%;
+}
+
+.buttonAdaugaSubelement {
+  width: 20%;
+  padding: 10px;
+  background-color: #8fc0a9;
+  transition: 0.2s;
+  border-radius: 0.3rem;
+}
+
+.buttonAdaugaSubelement:hover {
+  background-color: #68b0ab;
+}
+
+.titluParticipanti {
+  margin-top: 10px;
+}

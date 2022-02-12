@@ -1,0 +1,41 @@
+.formMeeting {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  border: 2px solid #613a43;
+  margin: 10px;
+  border-radius: 0.3rem;
+  width: 50%;
+  background-color: #ffff;
+}
+
+.inputDescriereElement,
+.inputUrlElement,
+.inputDataElement {
+  width: 100%;
+  margin: 15px;
+  padding: 10px;
+  border-radius: 0.3rem;
+}
+
+.buttonTrimiteElement {
+  width: 50%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 10px;
+  background-color: #5b9aa0;
+  transition: 0.2s;
+  border-radius: 0.3rem;
+}
+
+.buttonTrimiteElement:hover {
+  background-color: #68b0ab;
+}
+
+.inapoi {
+  text-decoration: none;
+  border: 1px solid #613a43;
+  border-radius: 0.3rem;
+  padding: 0.5rem;
+}

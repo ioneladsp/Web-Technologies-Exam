@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.titlu {
+  left: 50%;
+  font-size: 50px;
+}
+
+html {
+  background-color: whitesmoke;
+  background-image: url('https://img.wallpapersafari.com/desktop/1920/1080/50/53/TI2laP.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 70%;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 0.3rem;
+  background-color: white;
+  border-color: #613a43;
+}
+
+.containerElement {
+  display: flex;
+  border: 2px solid #613a43;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin: 1rem;
+  padding: 10px;
+  font-size: 1.3rem;
+  border-radius: 0.3rem;
+  background-color: #f0efef;
+  border-color: #613a43;
+}
+
+.buttonAdaugaElement,
+.buttonSorteaza,
+.buttonRevenire {
+  width: 30%;
+  padding: 5px;
+  border-color: #613a43;
+}
+
+.buttonFiltreaza {
+  width: 30%;
+  margin-top: 10px;
+  padding: 5px;
+  border-color: #613a43;
+}
+
+#inputUrl {
+  width: 28.5%;
+  margin-top: 10px;
+  padding: 5px;
+  border-radius: 0.3rem;
+  border-color: #613a43;
+  background-color: rgba(199, 187, 187, 0.267);
+}
+
+#inputData {
+  width: 28.5%;
+  margin-top: 10px;
+  padding: 5px;
+  border-radius: 0.3rem;
+  border-color: #613a43;
+  background-color: rgba(199, 187, 187, 0.267);
+}
+
+#inputImport {
+  width: 30%;
+  padding: 5px;
+  border-radius: 0.3rem;
+  border-color: #613a43;
+  background-color: rgba(199, 187, 187, 0.267);
+  margin-top: 10px;
+}
+
+.buttonExport,
+.buttonImport {
+  width: 30%;
+  padding: 5px;
+  border-color: #613a43;
+  margin-top: 10px;
+}
+
+.buttonEdit,
+.buttonDelete,
+.buttonAcceseaza {
+  width: 30%;
+  padding: 5px;
+  margin: 0.3rem;
+  border-color: #613a43;
+}
+
+.buttonAcceseaza {
+  margin-top: 1rem;
+  border-color: #613a43;
+}
+
+.buttonAdaugaElement,
+.buttonSorteaza,
+.buttonRevenire,
+.buttonAcceseaza,
+.buttonEdit,
+.buttonDelete,
+.buttonExport,
+.buttonImport,
+.buttonFiltreaza {
+  background-color: #8fc0a9;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  border-color: #613a43;
+}
+
+.buttonAdaugaElement:hover,
+.buttonSorteaza:hover,
+.buttonRevenire:hover,
+.buttonAcceseaza:hover,
+.buttonEdit:hover,
+.buttonDelete:hover,
+.buttonExport:hover,
+.buttonImport:hover,
+.buttonFiltreaza:hover {
+  background-color: #68b0ab;
+}
